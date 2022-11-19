@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+/* card */
+
+.main {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    margin: 150px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 30px 5px 15px rgba(0, 0, 0, 0.125),  0px 30px 10px 50px rgba(0, 0, 0, 0.035);
+}
+    
+   
+/* first section */
+
+.first-section {
+    width: 100%;
+    margin: 20px;
+
+}
+.first-section img{
+    width: 310px;
+    border-radius: 10px;
+}
+
+/* second section */
+.second-section{
+    width: 100%;
+    margin: 20px;
+}
+
+.description {
+    width: 310px;
+}
+
+.head-des {
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+
+}
+.phar-des {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+}
+
+.section2-amount {
+    margin-top: 10px;
+    position: relative;
+    font-size: 15px;
+    width: 310px;
+}
+
+.section2-amount img {
+    height: 15px;
+}
+
+.eth-img {
+    display: inline-block;
+    width: 150px;
+    position: relative;
+}
+.eth-img img {
+    display: inline-block;
+}
+
+.eth-amount {
+    display: inline-block;
+    position: absolute;
+    margin-left: 3px;
+    bottom: 10%;
+}
+.eth-price {
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/* time period */
+
+.time {
+
+    display: inline-block;
+    align-items: center;
+}
+
+.time-img {
+    display: inline-block;
+    width: 150px;
+    text-align: end;
+    
+}
+.time-img img {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    
+}
+.time-period {
+    position: relative;
+    display: inline-block;
+    left: 6px;
+    margin-left: 15px;
+}
+
+.time-period p {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+
+/* after section 2 or the line */
+#line {
+    margin: 20px;
+    border: 1px solid hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 1px;
+}
+
+/* 3rd section */
+.third-section {
+    margin: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.third-section img {
+    padding: 0.5px;
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+    width: 30px;
+    border-radius: 100%;
+
+}
+.creator{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    top: 15%;
+    margin-left: 20px;
+    position: absolute;
+
+   
+}
+
+.creator span {
+    color: hsl(215, 51%, 70%);
+}
